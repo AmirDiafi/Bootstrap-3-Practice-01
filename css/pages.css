@@ -1,0 +1,258 @@
+
+
+.main-background{
+    background :linear-gradient(-110deg, rgb(14, 71, 75) 5%, rgb(9, 29, 63));
+}
+
+/* Start Breadcrumb */
+.breadcrumb-holder {
+    background: #f5f5f5;
+} 
+.breadcrumb-holder .breadcrumb{
+    margin: 0;
+    padding: 20px;
+}
+
+.breadcrumb-holder .breadcrumb li{
+    cursor: pointer;
+}
+
+/* Start About Us Intro */
+
+.about-us{
+    margin: 50px auto;
+}
+
+.about-us h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    /* color :#000 */
+}
+
+.about-us p.lead{
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+}
+
+.about-us hr{
+    width: 80%;
+    height: 1.3px;
+    background: rgb(101, 219, 228);
+}
+
+@media (max-width: 767px){
+    .about-us h1{
+        font-size: 33px
+    }
+    .about-us p.lead{
+        font-size: 17px
+    }
+    .about-us img{
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Start About Us Featrues */
+.featrues-about-us{
+    margin: 50px auto;
+    background :linear-gradient(-110deg, rgb(14, 71, 75) 5%, rgb(9, 29, 63));
+    color: #FFF;
+    padding: 50px 0
+}
+
+.featrues-about-us i{
+    background: linear-gradient(-110deg, rgb(14, 71, 75) 5%, rgb(9, 29, 63));
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, .5);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    line-height: 100px
+}
+
+.featrues-about-us h2{
+    color: rgb(224, 224, 224)
+}
+
+.featrues-about-us p{
+    font-size: 16px
+}
+
+@media (max-width: 767px) {
+    .featrues-about-us .feat {
+        margin-bottom: 40px
+    }
+    .featrues-about-us i{
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 25px
+    }
+    .featrues-about-us p{
+        font-size: 16px
+    }
+}
+
+/* Start Ceo Section */
+
+.ceo-about-us {
+    margin: 50px auto;
+}
+
+.ceo-about-us .info {
+    margin-top: 150px 
+}
+
+.ceo-about-us .h1 {
+    font-size: 40px
+}
+
+.ceo-about-us a.btn {
+    background: linear-gradient(-110deg, rgb(14, 71, 75) 5%, rgb(9, 29, 63));
+    box-shadow: -5px -5px 5px rgba(0, 0, 0, .5);
+    color: #FFF
+}
+
+@media(max-width: 767px) {
+    .ceo-about-us{
+        text-align: center
+    }
+    .ceo-about-us .h1 {
+        font-size: 30px
+    }
+
+    .ceo-about-us .info p.lead{
+        margin-bottom: 40px
+    }
+
+    .ceo-about-us .ceo-img {
+        text-align: center;
+        height: 300px
+    }
+
+    .ceo-about-us .ceo-img img{
+        height: 450px;
+        width: 100%
+    }
+
+}
+
+/* Start FQA */
+
+/* Start Breadcrumb */
+.breadcrumb-holder {
+    background: #f5f5f5;
+} 
+.breadcrumb-holder .breadcrumb{
+    margin: 0;
+    padding: 20px;
+}
+
+.breadcrumb-holder .breadcrumb li{
+    cursor: pointer;
+}
+
+/* Start Intro FAQ */
+
+.faq-questions{
+    margin: 50px auto
+}
+
+.intro-faq {
+    margin: 50px auto;
+    color: #FFF;
+    padding: 30px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, .5);
+    background :linear-gradient(-110deg, rgb(14, 71, 75) 5%, rgb(9, 29, 63));
+    font-family: monospace;
+}
+
+.intro-faq h1{
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.faq-questions .panel .panel-title{
+    padding :6px
+}
+
+.faq-questions .panel-title a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 500
+}
+
+.faq-questions .panel-title a:hover,
+.faq-questions .panel-title a:focus{
+    text-decoration: none
+}
+
+.faq-questions .panel .panel-title a::after{
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    color: #333333;
+    float: right
+}
+
+.faq-questions .panel .panel-title a.collapsed::after{
+    content:"\e080";
+    color :#333333
+}
+
+.faq-questions .panel:first-of-type .panel-title a::after{
+    content:"\e114";
+    color :#333333
+}
+.faq-questions .panel .panel-title a.open::after{
+    content:"\e080";
+    color :#333333
+}
+
+.faq-questions .panel-title span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgb(14, 71, 75);
+    color: #FFF;
+    padding: 5px
+}
+
+code {
+    background-color: #333333;
+    color: #11e4d2;
+}
+
+code > p {
+    color: #532d2d
+}
+
+@media(max-width: 767px) {
+    .intro-faq {
+        padding: 20px;
+    }
+    
+    .intro-faq h1{
+        margin-bottom: 30px;
+        font-size: 27px;
+    }
+    .faq-questions .panel .panel-title{
+        padding :0px
+    }
+    
+    .faq-questions .panel-title a{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+    }
+    .faq-questions .panel-title span{
+        width: 6px;
+        height: 6px;
+        padding: 2px;
+        font-size: 15px
+    }
+}
+

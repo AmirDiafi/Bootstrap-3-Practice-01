@@ -1,0 +1,165 @@
+
+body{
+    direction: rtl
+}
+  /* Start Global */
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+float: right;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{
+    float: right;
+}
+@media (max-width: 767px) {
+
+  .col-xs-offset-12 {
+    margin-right: 100%;
+  }
+  .col-xs-offset-11 {
+    margin-right: 91.66666667%;
+  }
+  .col-xs-offset-10 {
+    margin-right: 83.33333333%;
+  }
+  .col-xs-offset-9 {
+    margin-right: 75%;
+  }
+  .col-xs-offset-8 {
+    margin-right: 66.66666667%;
+  }
+  .col-xs-offset-7 {
+    margin-right: 58.33333333%;
+  }
+  .col-xs-offset-6 {
+    margin-right: 50%;
+  }
+  .col-xs-offset-5 {
+    margin-right: 41.66666667%;
+  }
+  .col-xs-offset-4 {
+    margin-right: 33.33333333%;
+  }
+  .col-xs-offset-3 {
+    margin-right: 25%;
+  }
+  .col-xs-offset-2 {
+    margin-right: 16.66666667%;
+  }
+  .col-xs-offset-1 {
+    margin-right: 8.33333333%;
+  }
+  .col-xs-offset-0 {
+    margin-right: 0;
+  }
+}
+
+.pull-right {
+    float: left !important;
+}
+.pull-left {
+    float: right !important;
+}
+
+.media-right,
+.media > .pull-right {
+  padding-right: 10px;
+}
+.media-left,
+.media > .pull-left {
+  padding-left: 10px;
+}
+
+li {
+    text-align: center
+}
+
+/* Start Tool Box Thems */
+
+@media (max-width: 530px){
+    .tool-box .color-option{
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+
+@media (min-width: 768px) {
+    .tool-box .color-option{
+        right: 50%;
+        transform: translateX(50%); 
+    }
+}
+
+/* Start Go To Top Button */
+
+@media (min-width: 768px) {
+    .go-to-top .title{
+        right:43px;
+        top: -12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .go-to-top .title{
+        top: -12px;
+        left: -25px;
+    }
+}
+
+/* Start Navbar */
+.navbar-nav li{
+    text-align: right
+}
+@media (min-width: 768px) {
+    .navbar-header {
+        float: right;
+      }
+    .navbar-left {
+        float: right !important;
+    }
+    .navbar-right {
+        float: left !important;
+        padding: 0
+    }
+    .nav .dropdown-menu{
+        left: auto;
+        right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-header {
+        width: 100%
+}
+}
+
+  .navbar-toggle {
+    float: left;
+  }
+
+  .navbar-brand {
+    float: right;
+  }
+
+  /* Start Testimonials */
+
+  .carousel-indicators {
+      padding-inline-start: 0
+  }
+
+/* Start Progress Bar */
+
+.our-skills .progress .progress-bar {
+    float: right;
+    text-align: right
+}
+
+/* start Footer */
+
+.list-unstyled{
+    padding-right: 0;
+}
+
+@media(max-width: 767px) {
+    .footer .our-work .img-thumbnail{
+        margin-right: 10%
+    }
+}
